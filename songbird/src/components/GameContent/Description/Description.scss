@@ -1,0 +1,32 @@
+.description-block {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  margin: 0 15px;
+  border: 1px solid #444;
+  border-radius: 3px;
+  padding: 1rem;
+
+  &__container {
+    display: flex;
+    min-height: 173px;
+  }
+  &__bird-img {
+    width: 200px;
+    height: 155px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 2rem;
+  }
+  &__bird-name {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  &__player {
+    margin: 10px 40px 8px 0;
+    min-width: 100px;
+    outline: none;
+  }
+}

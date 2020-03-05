@@ -1,0 +1,29 @@
+.question-block {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 25px;
+  background-color: #303030;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  &__bird-name {
+    font-size: 2rem;
+  }
+  &__bird-img {
+    width: 200px;
+    height: 155px;
+    border-radius: 10px;
+    margin: 0;
+    object-fit: cover;
+    &.unknown-bird {
+      background-color: black;
+    }
+  }
+  &__player {
+    margin: 10px 40px 8px 0;
+    min-width: 100px;
+    outline: none;
+  }
+}
